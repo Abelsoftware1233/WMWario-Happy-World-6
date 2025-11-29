@@ -1,0 +1,15 @@
+/* Desktop version */
+@media (min-width: 650px) {
+    body main.memory-game {
+        display: flex;
+    }
+}
+
+
+
+/* Mobile version */
+@media (min-width: 650px) {
+    body div.not-supported {
+        display: none;
+    }
+}
