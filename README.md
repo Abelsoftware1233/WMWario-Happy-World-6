@@ -1,16 +1,4 @@
-<h4 align="center">
-  <br>
-    <img src="./.github/logo-mg.png" width="150" heigh="150" alt="Logo">
-</h4>
-<p align="center">
-  <img alt="Plataforma" src="https://img.shields.io/static/v1?label=Plataforma&message=PC&color=0004DC&labelColor=0001FC">
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/NyctibiusVII/MemoryGame?color=f00000&labelColor=fe0016">
-  <a href="https://github.com/NyctibiusVII/MemoryGame/blob/master/LICENSE">
-    <img alt="Licença" src="https://img.shields.io/static/v1?label=License&message=MIT&color=0004DC&labelColor=0001FC">
-  </a>
-  <a href="https://picpay.me/Matheus_nyctibius_vii">
-  <img alt="Donate" src="https://img.shields.io/static/v1?label=$&message=Donate&color=f00000&labelColor=fe0016">
-  </a>
+
 </p>
 <p align="center">
   <a href="#MemoryGame-">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -92,21 +80,7 @@ $ cd MemoryGame
 # Para executar o projeto basta abrir o html com seu navegador.
 ```
 
-## Contribuição 💭
-Para construir essa aplicação tive a ajuda da professora **Gabriela Pinheiro** da DigitalInnovationOne que disponibilizou video aulas do projeto **"Desenvolvendo um jogo da memória"**.
 
-## Licença ⚖️
-Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](https://github.com/NyctibiusVII/MemoryGame/blob/master/LICENSE) para mais detalhes.
 
-## Contato ✉️
-| <img src="https://user-images.githubusercontent.com/52816125/90341686-05b68880-dfd8-11ea-969c-70c9ce9d0278.jpg" width=100><br><sub><a href="https://www.instagram.com/nyctibius_vii/?hl=pt-br">@MatheusVidigal🦊</a></sub> |
-| :---: |
-
-<p align="left">
-   <a href="https://www.linkedin.com/in/matheus-vidigal-nyctibiusvii/">
-      <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-MatheusVidigal-0001FC?style=flat&logo=Linkedin&logoColor=fff"/>
-   </a>
-   <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSGLCKpKJfwPsKKqzXBplKkGtCLvCQcFWdWxCxQFfkHzzjVkgzrMFPBgKBmWFHvrjrCsMqSH">
-      <img alt="Matheus Vidigal / Linkedin" src="https://img.shields.io/badge/-MatheusVidigal-fe0016?style=flat&logo=Gmail&logoColor=fff"/>
    </a>
 </p>
