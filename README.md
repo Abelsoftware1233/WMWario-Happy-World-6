@@ -1,86 +1,66 @@
+<p align="center">   <a href="#memorygame-">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   <a href="#tecnologias-">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   <a href="#layout-">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   <a href="#licença-%EF%B8%8F">License</a> </p>
 
-</p>
-<p align="center">
-  <a href="#MemoryGame-">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias-">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#layout-">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#licença-%EF%B8%8F">Licença</a>
-</p>
+MemoryGame 🤯🍄
+Project developed for the conclusion of the course Developing a Memory Game. @DigitalInnovationOne.
 
-# MemoryGame 🤯🍄
-Projeto desenvolvido para a conclusão do curso **Desenvolvendo um jogo da memória**. @DigitalInnovationOne.
+Technologies 🚀
+This project was developed with the following technologies:
+
+Html
+
+Css
+
+Javascript
+
+Layout 🚧
+Desktop Screenshot
+<div>    <img src="./.github/desktop-mg-1.png" width="400px">    <img src="./.github/desktop-mg-2.png" width="400px"> </div>
+
+Mobile Screenshot
+<div>    <img src="./.github/mobile-mg-1.png" width="180"> </div>
+
+How to play? 🕹
+The game starts with the cards face down and shuffled. Your goal is to click on a card and memorize its appearance. When you click on two matching cards, they unlock and stay face up. Unlock all cards to win the game.
+
+Rules 🧩
+Clear Objective: Click on the cards and find their pairs, thus training your memory.
+
+Lives: The player has no lives; they can make several mistakes.
+
+The End?: Have you unlocked all the cards? Then it's the end.
+
+Desktop 💻✔
+Click on the cards with your mouse or touch.
+
+Mobile 📱❌|✔
+Vertical: Not available.👻
 
 
-## Tecnologias 🚀
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Horizontal: Available
 
-- [Html](https://pt.wikipedia.org/wiki/HTML)
-- [Css](https://pt.wikipedia.org/wiki/Cascading_Style_Sheets)
-- [Javascript](https://pt.wikipedia.org/wiki/JavaScript)
+Mobile Responsiveness 📱
+For devices with a width below 650, unfortunately, the layout becomes distorted.
 
-## Layout 🚧
-#### Desktop Screenshot
-<div>
-<!-- Responsive, 1366 x 768, 50% (Lenovo Ideapad 310)-->
-   <img src="./.github/desktop-mg-1.png" width="400px">
-   <img src="./.github/desktop-mg-2.png" width="400px">
-</div>
+Oops! ಥ_ಥ
 
-#### Mobile Screenshot
-<div>
-<!-- Responsive, 360 x 720, 50% (Moto G6 Play)-->
-   <img src="./.github/mobile-mg-1.png" width="180">
-</div>
+It seems your electronic device does not support the necessary screen size to 'run' the game without layout distortions.
 
-### Como jogar? 🕹
-O jogo começa com as cartas viradas e embaralhadas, seu objetivo é clicar na carta e decorar sua aparência, quando você clicar em duas cartas iguais ela desbloqueia e fica virada para você. Desbloqueie todas as cartas para ganhar o jogo.
+I apologize, but for the moment, this service for mobile will be unavailable.
+'AN ALTERNATIVE IS TO ROTATE YOUR DEVICE'.
+Rotating the screen is an option to access the game layout.
 
-#### Regras 🧩
-**Objetivo claro**: Clique nas cartas e descubra seus pares assim treinando sua memoria.
+Running the project 🚴🏻‍♂️
+"I'll just take a look...":
+  <a href="https://memory-game-beige.vercel.app/">🕹🍄 Site hosted on Vercel 🍄🕹</a>
 
-**Vida**: O jogador não tem vidas, pode errar varias vezes.
+On your machine:
+Bash
 
-**Fim?**: Desbloqueou todas as cartas? então é fim.
-
-#### Desktop 💻✔
-Clica nas cartas com o seu mouse ou touch.
-
-#### Mobile 📱❌|✔
-Vertical: *Não disponível*.👻
-<br>
-Horizontal: *disponível*
-
-##### Responsividade do mobile 📱
-- Para **dispositivos com width(largura) abaixo de 650** infelizmente o layout fica destorcido.
-
-```
-OpS! ಥ_ಥ
-
-Parece que seu aparelho eletrônico não suporta o tamanho de tela necessário para 'rodar' o jogo sem sofrer distorções de layout.
-
-Te peço mil desculpas mas no momento esse serviço para mobile ficara indisponível.
-'UMA ALTERNATIVA É VIRAR SEU APARELHO'.
-```
-- Virar a tela é uma opção para *acessar* o layout do jogo.
-
-## Rodando o projeto 🚴🏻‍♂️
-#### "Só vou dar uma olhadinha...":
-  <a href="https://memory-game-beige.vercel.app/">🕹🍄 Site hospedado na Vercel 🍄🕹</a>
-
-#### Na sua maquina:
-
-```bash
-
-# Clone o repositório
+# Clone the repository
 $ git clone https://github.com/NyctibiusVII/MemoryGame.git
 
-# Acesse a pasta do projeto no seu console
+# Access the project folder in your console
 $ cd MemoryGame
 
-# Para executar o projeto basta abrir o html com seu navegador.
-```
-
-
-
-   </a>
-</p>
+# To run the project, simply open the html file with your browser.
+Is there anything else you would like me to translate or help you with?
