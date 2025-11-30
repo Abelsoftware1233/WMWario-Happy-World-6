@@ -1,15 +1,26 @@
-/* Desktop version */
+/* --- Desktop Version (Screen width 650px and above) --- */
 @media (min-width: 650px) {
+    /* Show the game board */
     body main.memory-game {
         display: flex;
     }
-}
 
-
-
-/* Mobile version */
-@media (min-width: 650px) {
+    /* Hide the mobile support message */
     body div.not-supported {
         display: none;
+    }
+}
+
+/* --- Mobile Version (Screen width less than 650px) --- */
+/* We use max-width to target smaller screens */
+@media (max-width: 649.99px) {
+    /* Hide the game board */
+    body main.memory-game {
+        display: none;
+    }
+
+    /* Show the mobile support message */
+    body div.not-supported {
+        display: flex; /* Using flex to correctly display the vertical message content */
     }
 }
