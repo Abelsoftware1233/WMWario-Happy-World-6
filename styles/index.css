@@ -26,14 +26,14 @@
     font-weight: 300;
 }
 
-/* --- DESKTOP/LARGE SCREEN GAME BOARD STYLES --- */
-/* The visibility is usually controlled by media queries in responsivity.css */
+/* --- GAME BOARD STYLES (Used for Desktop/Large Screens) --- */
 .memory-game {
     height: 640px;
     width: 640px;
 
     margin: 1rem auto;
-    display: flex; /* Changed from 'none' to 'flex' - visibility should be handled by media queries */
+    /* Changed display from 'none' to 'flex'. The visibility logic (showing/hiding) is now fully handled by responsivity.css */
+    display: flex; 
     flex-wrap: wrap;
     perspective: 1000px; /* User's perspective on the z-axis. Higher value = stronger perspective effect */
 }
@@ -48,8 +48,9 @@
     transform: scale(1);
     transform-style: preserve-3d; /* Adds 3D perspective so the element isn't flattened on the plane */
     transition: transform .9s;    /* Adds a motion effect to the card flip */
-    /* Ensuring proper touch behavior */
-    -webkit-tap-highlight-color: transparent; /* Removes the default highlight on tap in some browsers */
+    
+    /* 🔥 Touchscreen Optimization: Removes the default tap-highlight in Webkit browsers (iOS/Chrome) */
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* Optimized for Touchscreens/Mobile Tap Feedback */
@@ -66,11 +67,13 @@
     position: absolute;
     border-radius: 7px;
     background: #f8d86e;
-    backface-visibility: hidden; /* Hides the back side of the element when facing away from the viewer */
+    /* Hides the back side of the element when facing away from the viewer */
+    backface-visibility: hidden; 
 }
 
 .card-front {
-    transform: rotateY(180deg);  /* Rotates the front side so it starts face-down (hidden) */
+    /* Rotates the front side so it starts face-down (hidden) */
+    transform: rotateY(180deg);  
 }
 
 /* flip card animation class (controlled by JavaScript) */
